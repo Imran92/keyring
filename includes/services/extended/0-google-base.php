@@ -58,7 +58,7 @@ class Keyring_Service_GoogleBase extends Keyring_Service_OAuth2 {
 		echo '<p>' . sprintf( __( 'Now you need to enable the %s and setup your OAuth credentials.', 'keyring' ), $class::LABEL ) . '</p>';
 		echo '<ol>';
 		echo '<li>' . __( 'Select your project from the project dropdown.', 'keyring' ) . '</li>';
-		echo '<li>' . __( 'Click <strong>Library</strong> in the menu on the left.', 'keyring' ) . '</li>';
+		echo '<li>' . __( 'Click <strong>APIs & Services > Library</strong> in the menu on the left.', 'keyring' ) . '</li>';
 		/* translators: %s: The name of the service being connected */
 		echo '<li>' . sprintf( __( 'Find and click <strong>%s</strong>.', 'keyring' ), $class::LABEL ) . '</li>';
 		echo '<li>' . __( 'Next to the heading, click <strong>Enable</strong>.', 'keyring' ) . '</li>';
